@@ -1,0 +1,40 @@
+.cHolder {
+  height: 120vh;
+}
+.cForm {
+  width: 100%;
+  margin-top: 10px;
+}
+
+.inputer {
+  width: 100%;
+  margin: 5px 0;
+  padding: 10px 10px;
+  border-radius: 5px;
+  background-color: transparent;
+  color: rgb(0, 174, 255);
+}
+
+@media screen and (min-width: 768px) {
+  .cHolder {
+    height: auto;
+  }
+  .cHolder {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+  }
+  .cImage {
+    width: 100%;
+  }
+  .cForm {
+    width: 100%;
+  }
+  .inputer {
+    width: 80%;
+    margin: 5px 0;
+    padding: 10px 10px;
+    border-radius: 5px;
+  }
+}

@@ -1,0 +1,87 @@
+.defaultholder {
+  padding-top: 70px;
+}
+
+.flexer {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+.text {
+  width: 100%;
+}
+.image {
+  width: 100%;
+}
+
+.heroTitle {
+  font-size: 50px;
+  font-weight: 400;
+}
+
+.heroPara {
+  font-size: 23px;
+}
+
+.bolder {
+  font-weight: 800;
+}
+
+.typewriterText {
+  text-transform: uppercase;
+  background-color: #0079e6;
+  padding: 10px;
+  color: white;
+}
+
+.buttons {
+  display: flex;
+  gap: 10px;
+  width: 100%;
+  align-items: center;
+}
+
+.primary-btn {
+  background-color: #0079e6;
+  padding: 10px 15px;
+  font-weight: 500;
+  text-transform: uppercase;
+  border-radius: 5px;
+  border: none;
+  color: white;
+  width: 170px;
+}
+.secondary-btn {
+  border: none;
+  color: rgb(0, 0, 0);
+  background-color: #f1f1f1;
+  width: 170px;
+  padding: 10px 15px;
+  font-weight: 500;
+  text-transform: uppercase;
+  border-radius: 5px;
+}
+
+@media screen and (max-width: 768px) {
+  .flexer {
+    display: block;
+    text-align: center;
+    height: auto;
+  }
+  .heroTitle {
+    font-size: 40px;
+    font-weight: 400;
+  }
+  .heroPara {
+    font-size: 16px;
+  }
+
+  .buttons {
+    display: flex;
+    gap: 10px;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+  }
+}
