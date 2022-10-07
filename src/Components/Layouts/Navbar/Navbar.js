@@ -73,31 +73,31 @@ const Navbar = () => {
       <ul className={` nav-md-link ${theme} `}>
         <li>
           <Link className={`links ${theme}`} to="/">
-            <FaHome size={25} />
+            <FaHome size={20} />
             <h6 className="bNavheading">Home</h6>
           </Link>
         </li>
         <li>
           <Link className={`links ${theme} `} to="/projects">
-            <MdWork size={25} />
+            <MdWork size={20} />
             <h6 className="bNavheading">Projects</h6>
           </Link>
         </li>
         <li>
           <Link className={`links ${theme} `} to="/experience">
-            <CgOrganisation size={25} />
+            <CgOrganisation size={20} />
             <h6 className="bNavheading">Experience</h6>
           </Link>
         </li>
         <li>
           <Link className={`links ${theme} `} to="/skills">
-            <GiOpenBook size={25} />
+            <GiOpenBook size={20} />
             <h6 className="bNavheading">Skills</h6>
           </Link>
         </li>
         <li>
           <Link className={`links ${theme} `} to="/contact">
-            <MdMail size={25} />
+            <MdMail size={20} />
             <h6 className="bNavheading">Contact</h6>
           </Link>
         </li>
